@@ -24,11 +24,11 @@ class Thrower:
 
 # The get_points method calculates and returns the total points for the current dice. Ones are worth 100 points. Fives are worth 50 points.
     def get_point(self):
-        for dice in ()
-            if dice
-            total_point += 100
+        for dice in (self.dice):
+            if dice:
+                total_point += 100
 
-        return total_points
+                return total_points
 
 
 # The can_throw method determines whether or not the Thrower can throw again. It returns a boolean value that is true if the dice have at least a five, or a one, or the num_throws is greater than zero. Otherwise, it returns false.
